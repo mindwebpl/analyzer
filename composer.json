@@ -10,7 +10,12 @@
     ],
     "require": {
         "mindweb/modifier": "dev-master",
+        "doctrine/cache": "1.5.*@dev",
+        "piwik/device-detector": "dev-master",
+        "mindweb/device-detector-modifier": "dev-master",
         "mindweb/forwarder": "dev-master",
+        "mindweb/cli-output-forwarder": "dev-master",
+        "mindweb/history-to-mongo-forwarder": "dev-master",
         "mindweb/collector": "dev-master",
         "mindweb/resque-collector": "dev-master",
         "pimple/pimple": "~3.0",
