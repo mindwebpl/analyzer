@@ -1,0 +1,13 @@
+<?php
+
+return array(
+    'collectors' => array(
+        'Mindweb\\ResqueCollector\\ResqueCollector' => array(
+            'interval' => 1,
+            'logLevel' => 3,
+            'numberOfWorkers' => 1
+        )
+    ),
+    'modifiers' => array(),
+    'forwarders' => array()
+);

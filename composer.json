@@ -1,0 +1,24 @@
+{
+    "name": "mindweb/analyzer",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Marcin Czołnowski",
+            "email": "marcin@czolnowski.net"
+        }
+    ],
+    "require": {
+        "mindweb/modifier": "dev-master",
+        "mindweb/forwarder": "dev-master",
+        "mindweb/collector": "dev-master",
+        "mindweb/resque-collector": "dev-master",
+        "pimple/pimple": "~3.0",
+        "symfony/console": "~2.6"
+    },
+    "autoload": {
+        "psr-0": {
+            "Mindweb\\Analyzer\\": "src"
+        }
+    }
+}
